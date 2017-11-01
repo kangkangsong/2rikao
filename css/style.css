@@ -1,0 +1,87 @@
+body {
+  font-size: .12rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+@media screen and (min-width: 375px) {
+  font-size: 750%; }
+@media screen and (min-width: 414px) {
+  font-size: 850%; }
+.head {
+  height: .45rem;
+  background: #393A3F;
+  color: #fff;
+  display: -webkit-flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 .1rem; }
+  .head h2 {
+    font-size: .14rem;
+    line-height: .45rem; }
+
+.content {
+  -webkit-flex: 1;
+  overflow-y: scroll; }
+  .content .mark {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    position: relative; }
+    .content .mark .box {
+      width: 280px;
+      height: 420px;
+      background: #fff;
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      margin: auto;
+      border-radius: 10px; }
+      .content .mark .box .top {
+        text-align: center;
+        line-height: .4rem;
+        margin-top: .25rem; }
+        .content .mark .box .top img {
+          width: 120px;
+          height: 40px; }
+      .content .mark .box .inp {
+        height: .4rem;
+        padding: 0 .15rem;
+        display: -webkit-flex;
+        position: relative;
+        margin-top: .15rem; }
+        .content .mark .box .inp img {
+          width: 14px;
+          height: 20px;
+          position: absolute;
+          top: .1rem;
+          left: .22rem; }
+        .content .mark .box .inp input {
+          -webkit-flex: 1;
+          border-top: none;
+          border-left: none;
+          border-right: none;
+          outline: none;
+          padding-left: .3rem; }
+      .content .mark .box .but {
+        height: .4rem;
+        display: -webkit-flex;
+        padding: 0 .2rem;
+        margin-top: .3rem; }
+        .content .mark .box .but button {
+          -webkit-flex: 1;
+          outline: none;
+          border-width: 0;
+          background: #2FBA77;
+          color: #fff;
+          border-radius: .05rem; }
+
+/*# sourceMappingURL=style.css.map */
